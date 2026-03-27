@@ -18,6 +18,12 @@ yarn install
 Crie um arquivo .env.local na raiz do projeto e adicione suas chaves de API para o funcionamento do modelo Llama e busca de livros:
 GROQ_API_KEY=sua_chave_aqui
 GOOGLE_BOOKS_API_KEY=sua_chave_aqui
+5. Executar o Projeto
+Inicie o servidor de desenvolvimento:
+npm run dev
+ou
+yarn dev
+Após o comando, a aplicação estará disponível em http://localhost:3000.
 # Proposta do Projeto 
 Desenvolver um ecossistema integrado que utiliza LLMs para interpretar os gostos do usuário e oferecer uma jornada literária fluida, desde a descoberta até a aquisição da obra.
 Gerenciamento de Leitura: Acompanhamento de progresso (páginas lidas, porcentagem concluída) e marcadores de avanço.
